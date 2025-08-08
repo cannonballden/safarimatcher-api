@@ -1,4 +1,15 @@
 // server.js
++  // CORS pre-flight
++  if (req.method === 'OPTIONS' && req.url === '/api/match') {
++    res.writeHead(204, {
++      'Access-Control-Allow-Origin': '*',
++      'Access-Control-Allow-Methods': 'POST, OPTIONS',
++      'Access-Control-Allow-Headers': 'Content-Type',
++      'Access-Control-Max-Age': '86400'   // 24 h
++    });
++    return res.end();
++  }
+
 const http = require('http');
 const { getTours } = require('./data');
 
