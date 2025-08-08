@@ -1,6 +1,5 @@
 // server.js
-+  // CORS pre-flight
-  // -------- universal CORS pre-flight --------
+
   if (req.method === 'OPTIONS') {
     res.writeHead(204, {
       'Access-Control-Allow-Origin': '*',
