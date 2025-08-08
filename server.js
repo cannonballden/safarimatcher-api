@@ -1,14 +1,15 @@
 // server.js
 +  // CORS pre-flight
-+  if (req.method === 'OPTIONS' && req.url === '/api/match') {
-+    res.writeHead(204, {
-+      'Access-Control-Allow-Origin': '*',
-+      'Access-Control-Allow-Methods': 'POST, OPTIONS',
-+      'Access-Control-Allow-Headers': 'Content-Type',
-+      'Access-Control-Max-Age': '86400'   // 24 h
-+    });
-+    return res.end();
-+  }
+  // -------- universal CORS pre-flight --------
+  if (req.method === 'OPTIONS') {
+    res.writeHead(204, {
+      'Access-Control-Allow-Origin': '*',
+      'Access-Control-Allow-Methods': 'GET, POST, OPTIONS',
+      'Access-Control-Allow-Headers': 'Content-Type',
+      'Access-Control-Max-Age': '86400'     // cache 24 h
+    });
+    return res.end();  // finish the pre-flight
+  }
 
 const http = require('http');
 const { getTours } = require('./data');
@@ -45,7 +46,10 @@ const server=http.createServer((req,res)=>{
         res.writeHead(200,{'Content-Type':'application/json','Access-Control-Allow-Origin':'*'});
         res.end(JSON.stringify(categories));
       }catch(err){
-        res.writeHead(400,{'Content-Type':'application/json'});
+res.writeHead(400, {
+  'Content-Type':'application/json',
+  'Access-Control-Allow-Origin':'*'
+});
         res.end(JSON.stringify({error:'Bad Request'}));
       }
     });
@@ -53,7 +57,9 @@ const server=http.createServer((req,res)=>{
     res.writeHead(200,{'Content-Type':'application/json'});
     res.end(JSON.stringify({status:'ok'}));
   }else{
-    res.writeHead(404);
+res.writeHead(404, {
+  'Access-Control-Allow-Origin':'*'
+});
     res.end('Not Found');
   }
 });
