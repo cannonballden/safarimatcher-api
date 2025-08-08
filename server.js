@@ -10,7 +10,7 @@
     });
     return res.end();  // finish the pre-flight
   }
-
+  
 const http = require('http');
 const { getTours } = require('./data');
 
