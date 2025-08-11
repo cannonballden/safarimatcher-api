@@ -13,6 +13,8 @@ const express = require('express');
 const cors = require('cors');
 const { MongoClient } = require('mongodb');
 
+const catalogData = require('./data.json');
+
 // Pull configuration from the environment with sensible defaults
 const PORT = process.env.PORT || 3001;
 const MONGODB_URI = process.env.MONGODB_URI ||
@@ -30,7 +32,8 @@ async function connectDB(){
 }
 
 async function fetchCatalog(){
-  const db = await connectDB();
+  return catalogData;
+onst db = await connectDB();
   const [animals, adventures, months, camps] = await Promise.all([
     db.collection('animals').find({}).toArray(),
     db.collection('adventures').find({}).toArray(),
@@ -47,6 +50,8 @@ app.use(express.json());
 
 // GET /api/catalog -> full catalog of animals, adventures, months and camps
 app.get('/api/catalog', async (req,res) => {
+  // const catalogData = require('./data.json');
+
   try {
     const catalog = await fetchCatalog();
     res.json(catalog);
