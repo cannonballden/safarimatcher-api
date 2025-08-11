@@ -1,0 +1,910 @@
+{
+  "animals": [
+    {
+      "id": "animal-0",
+      "label": "Lion",
+      "full": "African Lion",
+      "baseId": "animal-0"
+    },
+    {
+      "id": "animal-1",
+      "label": "Elephant",
+      "full": "Elephant",
+      "baseId": "animal-1"
+    },
+    {
+      "id": "animal-2",
+      "label": "Leopard",
+      "full": "Leopard",
+      "baseId": "animal-2"
+    },
+    {
+      "id": "animal-3",
+      "label": "Rhino",
+      "full": "Rhinoceros",
+      "baseId": "animal-3"
+    },
+    {
+      "id": "animal-4",
+      "label": "Cape Buffalo",
+      "full": "Cape Buffalo",
+      "baseId": "animal-4"
+    },
+    {
+      "id": "animal-5",
+      "label": "Cheetah",
+      "full": "Cheetah",
+      "baseId": "animal-5"
+    },
+    {
+      "id": "animal-6",
+      "label": "Hyena",
+      "full": "Spotted Hyena",
+      "baseId": "animal-6"
+    },
+    {
+      "id": "animal-7",
+      "label": "Giraffe",
+      "full": "Giraffe",
+      "baseId": "animal-7"
+    },
+    {
+      "id": "animal-8",
+      "label": "Hippopotamus",
+      "full": "Hippopotamus",
+      "baseId": "animal-8"
+    },
+    {
+      "id": "animal-9",
+      "label": "Zebra",
+      "full": "Zebra",
+      "baseId": "animal-9"
+    },
+    {
+      "id": "animal-10",
+      "label": "Wildebeest",
+      "full": "Wildebeest",
+      "baseId": "animal-10"
+    },
+    {
+      "id": "animal-11",
+      "label": "Kudu",
+      "full": "Kudu",
+      "baseId": "animal-11"
+    },
+    {
+      "id": "animal-12",
+      "label": "Sable Antelope",
+      "full": "Sable Antelope",
+      "baseId": "animal-12"
+    },
+    {
+      "id": "animal-13",
+      "label": "Giant Eland",
+      "full": "Giant Eland",
+      "baseId": "animal-13"
+    },
+    {
+      "id": "animal-14",
+      "label": "Gemsbok/Oryx",
+      "full": "Gemsbok (Oryx)",
+      "baseId": "animal-14"
+    },
+    {
+      "id": "animal-15",
+      "label": "Hartebeest/Topi",
+      "full": "Red Hartebeest / Topi",
+      "baseId": "animal-15"
+    },
+    {
+      "id": "animal-16",
+      "label": "Waterbuck",
+      "full": "Waterbuck",
+      "baseId": "animal-16"
+    },
+    {
+      "id": "animal-17",
+      "label": "Impala",
+      "full": "Impala",
+      "baseId": "animal-17"
+    },
+    {
+      "id": "animal-18",
+      "label": "Warthog",
+      "full": "Warthog",
+      "baseId": "animal-18"
+    },
+    {
+      "id": "animal-19",
+      "label": "Crocodile",
+      "full": "Crocodile",
+      "baseId": "animal-19"
+    },
+    {
+      "id": "animal-20",
+      "label": "Serval/Caracal",
+      "full": "Serval / Caracal",
+      "baseId": "animal-20"
+    },
+    {
+      "id": "animal-21",
+      "label": "Baboon",
+      "full": "Baboon",
+      "baseId": "animal-21"
+    },
+    {
+      "id": "animal-22",
+      "label": "Vervet",
+      "full": "Vervet Monkey",
+      "baseId": "animal-22"
+    },
+    {
+      "id": "animal-23",
+      "label": "Meerkat",
+      "full": "Meerkat",
+      "baseId": "animal-23"
+    },
+    {
+      "id": "animal-24",
+      "label": "Gorilla",
+      "full": "Mountain Gorilla",
+      "baseId": "animal-24"
+    },
+    {
+      "id": "animal-25",
+      "label": "Chimp",
+      "full": "Chimpanzee",
+      "baseId": "animal-25"
+    },
+    {
+      "id": "animal-26",
+      "label": "Pangolin",
+      "full": "Pangolin",
+      "baseId": "animal-26"
+    },
+    {
+      "id": "animal-27",
+      "label": "Jackal/Wild Dog",
+      "full": "Jackal/African Wild Dog",
+      "baseId": "animal-27"
+    },
+    {
+      "id": "animal-28",
+      "label": "Ostrich",
+      "full": "Ostrich",
+      "baseId": "animal-28"
+    },
+    {
+      "id": "animal-29",
+      "label": "Secretary Bird",
+      "full": "Secretary Bird",
+      "baseId": "animal-29"
+    }
+  ],
+  "adventures": [
+    {
+      "id": "adv-0",
+      "label": "Great Migration",
+      "full": "Great Migration",
+      "baseId": "adv-0"
+    },
+    {
+      "id": "adv-1",
+      "label": "Night Drive",
+      "full": "Night Drive",
+      "baseId": "adv-1"
+    },
+    {
+      "id": "adv-2",
+      "label": "Guided Walk",
+      "full": "Guided Walking Safari",
+      "baseId": "adv-2"
+    },
+    {
+      "id": "adv-3",
+      "label": "Wilderness Hike",
+      "full": "Wilderness Hike",
+      "baseId": "adv-3"
+    },
+    {
+      "id": "adv-4",
+      "label": "Boat/Pontoon Safari",
+      "full": "Boat or Pontoon Safari",
+      "baseId": "adv-4"
+    },
+    {
+      "id": "adv-5",
+      "label": "Mokoro (Canoe)",
+      "full": "Mokoro (Dug-Out Canoe) Excursion",
+      "baseId": "adv-5"
+    },
+    {
+      "id": "adv-6",
+      "label": "Canoe/Raft Safari",
+      "full": "Canoe or Rafting Safari",
+      "baseId": "adv-6"
+    },
+    {
+      "id": "adv-7",
+      "label": "Hot-Air Balloon Flight",
+      "full": "Hot-Air Balloon Flight",
+      "baseId": "adv-7"
+    },
+    {
+      "id": "adv-8",
+      "label": "Helicopter Safari",
+      "full": "Helicopter Safari",
+      "baseId": "adv-8"
+    },
+    {
+      "id": "adv-9",
+      "label": "Fixed-Wing Flight",
+      "full": "Fixed-Wing Scenic Flight",
+      "baseId": "adv-9"
+    },
+    {
+      "id": "adv-10",
+      "label": "Horseback Safari",
+      "full": "Horseback Safari",
+      "baseId": "adv-10"
+    },
+    {
+      "id": "adv-11",
+      "label": "Tracking on Foot",
+      "full": "Animal Tracking on Foot",
+      "baseId": "adv-11"
+    },
+    {
+      "id": "adv-12",
+      "label": "Great-Ape Trek",
+      "full": "Great-Ape Trekking",
+      "baseId": "adv-12"
+    },
+    {
+      "id": "adv-13",
+      "label": "Photo Workshop",
+      "full": "Photographic Safari Workshop",
+      "baseId": "adv-13"
+    },
+    {
+      "id": "adv-14",
+      "label": "Sleep-Out / Fly Camp",
+      "full": "Sleep-Out Under the Stars / Fly Camping",
+      "baseId": "adv-14"
+    },
+    {
+      "id": "adv-15",
+      "label": "Cultural Visit & Dance",
+      "full": "Cultural Village Visit & Traditional Dance",
+      "baseId": "adv-15"
+    },
+    {
+      "id": "adv-16",
+      "label": "Multi-Day Trek",
+      "full": "Multi-Day Trek (Mountain or Backpacking)",
+      "baseId": "adv-16"
+    },
+    {
+      "id": "adv-17",
+      "label": "Zipline",
+      "full": "Zip Line",
+      "baseId": "adv-17"
+    },
+    {
+      "id": "adv-18",
+      "label": "Beach Trip",
+      "full": "Trip to Beach",
+      "baseId": "adv-18"
+    },
+    {
+      "id": "adv-19",
+      "label": "Pool",
+      "full": "Pool",
+      "baseId": "adv-19"
+    }
+  ],
+  "months": [
+    {
+      "id": "jan",
+      "label": "Jan",
+      "season": "wet"
+    },
+    {
+      "id": "feb",
+      "label": "Feb",
+      "season": "wet"
+    },
+    {
+      "id": "mar",
+      "label": "Mar",
+      "season": "wet"
+    },
+    {
+      "id": "apr",
+      "label": "Apr",
+      "season": "wet"
+    },
+    {
+      "id": "may",
+      "label": "May",
+      "season": "shoulder"
+    },
+    {
+      "id": "jun",
+      "label": "Jun",
+      "season": "dry"
+    },
+    {
+      "id": "jul",
+      "label": "Jul",
+      "season": "dry"
+    },
+    {
+      "id": "aug",
+      "label": "Aug",
+      "season": "dry"
+    },
+    {
+      "id": "sep",
+      "label": "Sep",
+      "season": "dry"
+    },
+    {
+      "id": "oct",
+      "label": "Oct",
+      "season": "shoulder"
+    },
+    {
+      "id": "nov",
+      "label": "Nov",
+      "season": "wet"
+    },
+    {
+      "id": "dec",
+      "label": "Dec",
+      "season": "wet"
+    }
+  ],
+  "camps": [
+    {
+      "id": "mara-plains-camp",
+      "name": "Mara Plains Camp",
+      "category": "CAMP",
+      "regions": [
+        "east"
+      ],
+      "animalProb": {
+        "Vervet Monkey": 0.88,
+        "Gemsbok (Oryx)": 0.87,
+        "Meerkat": 0.42,
+        "Secretary Bird": 0.4,
+        "Jackal/African Wild Dog": 0.48,
+        "Spotted Hyena": 0.85,
+        "Pangolin": 0.36,
+        "Leopard": 0.49,
+        "Crocodile": 0.41,
+        "Rhinoceros": 0.43,
+        "Sable Antelope": 0.66,
+        "Ostrich": 0.46
+      },
+      "adventures": [
+        "Photographic Safari Workshop",
+        "Trip to Beach",
+        "Pool",
+        "Hot-Air Balloon Flight",
+        "Multi-Day Trek (Mountain or Backpacking)",
+        "Night Drive",
+        "Mokoro (Dug-Out Canoe) Excursion",
+        "Wilderness Hike"
+      ],
+      "monthsBest": "jul",
+      "monthsSecond": "sep",
+      "monthsThird": "aug",
+      "price": "$$$"
+    },
+    {
+      "id": "seronera-bush-tents",
+      "name": "Seronera Bush Tents",
+      "category": "CAMP",
+      "regions": [
+        "east"
+      ],
+      "animalProb": {
+        "Warthog": 0.67,
+        "Spotted Hyena": 0.78,
+        "Vervet Monkey": 0.53,
+        "Crocodile": 0.64,
+        "Waterbuck": 0.44,
+        "Red Hartebeest / Topi": 0.6,
+        "Hippopotamus": 0.5,
+        "Jackal/African Wild Dog": 0.41,
+        "Zebra": 0.9,
+        "Ostrich": 0.41,
+        "Chimpanzee": 0.84,
+        "Gemsbok (Oryx)": 0.77
+      },
+      "adventures": [
+        "Guided Walking Safari",
+        "Fixed-Wing Scenic Flight",
+        "Cultural Village Visit & Traditional Dance",
+        "Wilderness Hike",
+        "Multi-Day Trek (Mountain or Backpacking)",
+        "Animal Tracking on Foot",
+        "Canoe or Rafting Safari",
+        "Boat or Pontoon Safari"
+      ],
+      "monthsBest": "jun",
+      "monthsSecond": "jul",
+      "monthsThird": "aug",
+      "price": "$"
+    },
+    {
+      "id": "okavango-delta-camp",
+      "name": "Okavango Delta Camp",
+      "category": "CAMP",
+      "regions": [
+        "south"
+      ],
+      "animalProb": {
+        "African Lion": 0.82,
+        "Impala": 0.54,
+        "Red Hartebeest / Topi": 0.53,
+        "Crocodile": 0.36,
+        "Pangolin": 0.49,
+        "Sable Antelope": 0.49,
+        "Mountain Gorilla": 0.48,
+        "Gemsbok (Oryx)": 0.91,
+        "Hippopotamus": 0.44,
+        "Leopard": 0.4,
+        "Cheetah": 0.75,
+        "Vervet Monkey": 0.37
+      },
+      "adventures": [
+        "Sleep-Out Under the Stars / Fly Camping",
+        "Horseback Safari",
+        "Guided Walking Safari",
+        "Boat or Pontoon Safari",
+        "Night Drive",
+        "Mokoro (Dug-Out Canoe) Excursion",
+        "Multi-Day Trek (Mountain or Backpacking)",
+        "Trip to Beach"
+      ],
+      "monthsBest": "may",
+      "monthsSecond": "jun",
+      "monthsThird": "jul",
+      "price": "$$"
+    },
+    {
+      "id": "hwange-explorer",
+      "name": "Hwange Explorer",
+      "category": "CAMP",
+      "regions": [
+        "south"
+      ],
+      "animalProb": {
+        "Serval / Caracal": 0.67,
+        "Jackal/African Wild Dog": 0.71,
+        "Giraffe": 0.77,
+        "Impala": 0.73,
+        "Rhinoceros": 0.75,
+        "Gemsbok (Oryx)": 0.75,
+        "Zebra": 0.64,
+        "Sable Antelope": 0.43,
+        "Cheetah": 0.74,
+        "Baboon": 0.8,
+        "Hippopotamus": 0.86,
+        "Kudu": 0.72
+      },
+      "adventures": [
+        "Great-Ape Trekking",
+        "Mokoro (Dug-Out Canoe) Excursion",
+        "Photographic Safari Workshop",
+        "Zip Line",
+        "Fixed-Wing Scenic Flight",
+        "Pool",
+        "Multi-Day Trek (Mountain or Backpacking)",
+        "Sleep-Out Under the Stars / Fly Camping"
+      ],
+      "monthsBest": "aug",
+      "monthsSecond": "sep",
+      "monthsThird": "oct",
+      "price": "$"
+    },
+    {
+      "id": "kalahari-dunes-camp",
+      "name": "Kalahari Dunes Camp",
+      "category": "CAMP",
+      "regions": [
+        "south"
+      ],
+      "animalProb": {
+        "Zebra": 0.84,
+        "Crocodile": 0.62,
+        "Meerkat": 0.83,
+        "Jackal/African Wild Dog": 0.83,
+        "Impala": 0.43,
+        "Wildebeest": 0.63,
+        "Giant Eland": 0.62,
+        "Hippopotamus": 0.94,
+        "Vervet Monkey": 0.69,
+        "Waterbuck": 0.75,
+        "Elephant": 0.81,
+        "Sable Antelope": 0.7
+      },
+      "adventures": [
+        "Wilderness Hike",
+        "Cultural Village Visit & Traditional Dance",
+        "Great Migration",
+        "Horseback Safari",
+        "Boat or Pontoon Safari",
+        "Pool",
+        "Fixed-Wing Scenic Flight",
+        "Hot-Air Balloon Flight"
+      ],
+      "monthsBest": "jun",
+      "monthsSecond": "jul",
+      "monthsThird": "aug",
+      "price": "$$"
+    },
+    {
+      "id": "savute-sky-domes",
+      "name": "Savute Sky Domes",
+      "category": "GLAMP",
+      "regions": [
+        "south"
+      ],
+      "animalProb": {
+        "Vervet Monkey": 0.72,
+        "Baboon": 0.43,
+        "Sable Antelope": 0.44,
+        "Rhinoceros": 0.56,
+        "Hippopotamus": 0.83,
+        "Ostrich": 0.38,
+        "African Lion": 0.88,
+        "Serval / Caracal": 0.69,
+        "Crocodile": 0.77,
+        "Impala": 0.5,
+        "Secretary Bird": 0.94,
+        "Pangolin": 0.4
+      },
+      "adventures": [
+        "Fixed-Wing Scenic Flight",
+        "Great-Ape Trekking",
+        "Cultural Village Visit & Traditional Dance",
+        "Pool",
+        "Canoe or Rafting Safari",
+        "Zip Line",
+        "Horseback Safari",
+        "Photographic Safari Workshop"
+      ],
+      "monthsBest": "jul",
+      "monthsSecond": "aug",
+      "monthsThird": "sep",
+      "price": "$$$"
+    },
+    {
+      "id": "tarangire-treetops",
+      "name": "Tarangire Treetops",
+      "category": "GLAMP",
+      "regions": [
+        "east"
+      ],
+      "animalProb": {
+        "Warthog": 0.52,
+        "Waterbuck": 0.91,
+        "Gemsbok (Oryx)": 0.63,
+        "Meerkat": 0.81,
+        "Secretary Bird": 0.38,
+        "Giraffe": 0.52,
+        "Wildebeest": 0.36,
+        "Rhinoceros": 0.82,
+        "Kudu": 0.66,
+        "Zebra": 0.92,
+        "Crocodile": 0.71,
+        "Ostrich": 0.55
+      },
+      "adventures": [
+        "Animal Tracking on Foot",
+        "Great-Ape Trekking",
+        "Horseback Safari",
+        "Canoe or Rafting Safari",
+        "Wilderness Hike",
+        "Night Drive",
+        "Sleep-Out Under the Stars / Fly Camping",
+        "Zip Line"
+      ],
+      "monthsBest": "jun",
+      "monthsSecond": "jul",
+      "monthsThird": "aug",
+      "price": "$$"
+    },
+    {
+      "id": "nyungwe-mist-retreat",
+      "name": "Nyungwe Mist Retreat",
+      "category": "GLAMP",
+      "regions": [
+        "central"
+      ],
+      "animalProb": {
+        "Wildebeest": 0.69,
+        "Mountain Gorilla": 0.87,
+        "Gemsbok (Oryx)": 0.53,
+        "Pangolin": 0.95,
+        "Vervet Monkey": 0.44,
+        "Hippopotamus": 0.79,
+        "Cape Buffalo": 0.55,
+        "Jackal/African Wild Dog": 0.8,
+        "Secretary Bird": 0.54,
+        "Baboon": 0.62,
+        "Ostrich": 0.68,
+        "Rhinoceros": 0.51
+      },
+      "adventures": [
+        "Boat or Pontoon Safari",
+        "Cultural Village Visit & Traditional Dance",
+        "Mokoro (Dug-Out Canoe) Excursion",
+        "Photographic Safari Workshop",
+        "Great Migration",
+        "Pool",
+        "Horseback Safari",
+        "Great-Ape Trekking"
+      ],
+      "monthsBest": "aug",
+      "monthsSecond": "sep",
+      "monthsThird": "oct",
+      "price": "$"
+    },
+    {
+      "id": "skeleton-coast-outpost",
+      "name": "Skeleton Coast Outpost",
+      "category": "GLAMP",
+      "regions": [
+        "south"
+      ],
+      "animalProb": {
+        "Meerkat": 0.75,
+        "Serval / Caracal": 0.85,
+        "Baboon": 0.95,
+        "Kudu": 0.47,
+        "Giant Eland": 0.52,
+        "Rhinoceros": 0.55,
+        "Hippopotamus": 0.41,
+        "Pangolin": 0.57,
+        "Mountain Gorilla": 0.35,
+        "Secretary Bird": 0.72,
+        "Impala": 0.56,
+        "Elephant": 0.44
+      },
+      "adventures": [
+        "Sleep-Out Under the Stars / Fly Camping",
+        "Fixed-Wing Scenic Flight",
+        "Photographic Safari Workshop",
+        "Canoe or Rafting Safari",
+        "Multi-Day Trek (Mountain or Backpacking)",
+        "Animal Tracking on Foot",
+        "Boat or Pontoon Safari",
+        "Trip to Beach"
+      ],
+      "monthsBest": "may",
+      "monthsSecond": "jun",
+      "monthsThird": "jul",
+      "price": "$$$"
+    },
+    {
+      "id": "laikipia-highlands",
+      "name": "Laikipia Highlands",
+      "category": "GLAMP",
+      "regions": [
+        "east"
+      ],
+      "animalProb": {
+        "Spotted Hyena": 0.49,
+        "Mountain Gorilla": 0.67,
+        "Jackal/African Wild Dog": 0.62,
+        "Baboon": 0.82,
+        "Meerkat": 0.74,
+        "Warthog": 0.8,
+        "Gemsbok (Oryx)": 0.71,
+        "Wildebeest": 0.51,
+        "Leopard": 0.8,
+        "Cheetah": 0.94,
+        "Zebra": 0.73,
+        "Giant Eland": 0.78
+      },
+      "adventures": [
+        "Hot-Air Balloon Flight",
+        "Wilderness Hike",
+        "Sleep-Out Under the Stars / Fly Camping",
+        "Cultural Village Visit & Traditional Dance",
+        "Horseback Safari",
+        "Night Drive",
+        "Trip to Beach",
+        "Great Migration"
+      ],
+      "monthsBest": "jan",
+      "monthsSecond": "feb",
+      "monthsThird": "mar",
+      "price": "$$"
+    },
+    {
+      "id": "singita-ebony-lodge",
+      "name": "Singita Ebony Lodge",
+      "category": "FANCY",
+      "regions": [
+        "south"
+      ],
+      "animalProb": {
+        "Vervet Monkey": 0.36,
+        "Rhinoceros": 0.49,
+        "African Lion": 0.95,
+        "Wildebeest": 0.77,
+        "Impala": 0.86,
+        "Giraffe": 0.47,
+        "Sable Antelope": 0.49,
+        "Cape Buffalo": 0.41,
+        "Pangolin": 0.66,
+        "Cheetah": 0.57,
+        "Baboon": 0.63,
+        "Gemsbok (Oryx)": 0.43
+      },
+      "adventures": [
+        "Great Migration",
+        "Great-Ape Trekking",
+        "Night Drive",
+        "Trip to Beach",
+        "Guided Walking Safari",
+        "Hot-Air Balloon Flight",
+        "Canoe or Rafting Safari",
+        "Horseback Safari"
+      ],
+      "monthsBest": "aug",
+      "monthsSecond": "sep",
+      "monthsThird": "oct",
+      "price": "$$$"
+    },
+    {
+      "id": "angama-mara",
+      "name": "Angama Mara",
+      "category": "FANCY",
+      "regions": [
+        "east"
+      ],
+      "animalProb": {
+        "Kudu": 0.77,
+        "Cape Buffalo": 0.42,
+        "Serval / Caracal": 0.69,
+        "Red Hartebeest / Topi": 0.83,
+        "Sable Antelope": 0.93,
+        "Cheetah": 0.77,
+        "Gemsbok (Oryx)": 0.36,
+        "Hippopotamus": 0.83,
+        "Giraffe": 0.76,
+        "African Lion": 0.65,
+        "Zebra": 0.36,
+        "Ostrich": 0.67
+      },
+      "adventures": [
+        "Night Drive",
+        "Trip to Beach",
+        "Photographic Safari Workshop",
+        "Great-Ape Trekking",
+        "Fixed-Wing Scenic Flight",
+        "Great Migration",
+        "Zip Line",
+        "Mokoro (Dug-Out Canoe) Excursion"
+      ],
+      "monthsBest": "jul",
+      "monthsSecond": "aug",
+      "monthsThird": "sep",
+      "price": "$$$"
+    },
+    {
+      "id": "virunga-summit-lodge",
+      "name": "Virunga Summit Lodge",
+      "category": "FANCY",
+      "regions": [
+        "central"
+      ],
+      "animalProb": {
+        "Meerkat": 0.41,
+        "Waterbuck": 0.8,
+        "Hippopotamus": 0.59,
+        "Cape Buffalo": 0.43,
+        "Sable Antelope": 0.56,
+        "Vervet Monkey": 0.63,
+        "Red Hartebeest / Topi": 0.62,
+        "Cheetah": 0.38,
+        "Ostrich": 0.52,
+        "Baboon": 0.55,
+        "Crocodile": 0.42,
+        "Mountain Gorilla": 0.75
+      },
+      "adventures": [
+        "Boat or Pontoon Safari",
+        "Sleep-Out Under the Stars / Fly Camping",
+        "Photographic Safari Workshop",
+        "Great-Ape Trekking",
+        "Zip Line",
+        "Guided Walking Safari",
+        "Great Migration",
+        "Fixed-Wing Scenic Flight"
+      ],
+      "monthsBest": "jun",
+      "monthsSecond": "jul",
+      "monthsThird": "aug",
+      "price": "$$"
+    },
+    {
+      "id": "sahara-mirage-resort",
+      "name": "Sahara Mirage Resort",
+      "category": "FANCY",
+      "regions": [
+        "north"
+      ],
+      "animalProb": {
+        "Jackal/African Wild Dog": 0.71,
+        "Red Hartebeest / Topi": 0.71,
+        "Baboon": 0.9,
+        "Crocodile": 0.58,
+        "Wildebeest": 0.88,
+        "African Lion": 0.85,
+        "Warthog": 0.78,
+        "Vervet Monkey": 0.41,
+        "Sable Antelope": 0.77,
+        "Giraffe": 0.9,
+        "Chimpanzee": 0.57,
+        "Mountain Gorilla": 0.88
+      },
+      "adventures": [
+        "Animal Tracking on Foot",
+        "Multi-Day Trek (Mountain or Backpacking)",
+        "Wilderness Hike",
+        "Great-Ape Trekking",
+        "Mokoro (Dug-Out Canoe) Excursion",
+        "Horseback Safari",
+        "Cultural Village Visit & Traditional Dance",
+        "Sleep-Out Under the Stars / Fly Camping"
+      ],
+      "monthsBest": "oct",
+      "monthsSecond": "nov",
+      "monthsThird": "apr",
+      "price": "$$$"
+    },
+    {
+      "id": "bijagos-island-hideaway",
+      "name": "Bijagos Island Hideaway",
+      "category": "FANCY",
+      "regions": [
+        "west"
+      ],
+      "animalProb": {
+        "Waterbuck": 0.86,
+        "Vervet Monkey": 0.63,
+        "Kudu": 0.88,
+        "Cheetah": 0.38,
+        "Secretary Bird": 0.51,
+        "Pangolin": 0.46,
+        "Chimpanzee": 0.93,
+        "Elephant": 0.39,
+        "Hippopotamus": 0.37,
+        "Crocodile": 0.67,
+        "Sable Antelope": 0.7,
+        "Meerkat": 0.57
+      },
+      "adventures": [
+        "Sleep-Out Under the Stars / Fly Camping",
+        "Boat or Pontoon Safari",
+        "Helicopter Safari",
+        "Wilderness Hike",
+        "Animal Tracking on Foot",
+        "Fixed-Wing Scenic Flight",
+        "Mokoro (Dug-Out Canoe) Excursion",
+        "Pool"
+      ],
+      "monthsBest": "jan",
+      "monthsSecond": "feb",
+      "monthsThird": "mar",
+      "price": "$"
+    }
+  ]
+}
